@@ -1,0 +1,31 @@
+.button {
+  width: max-content;
+  height: max-content;
+  border: none;
+  border-radius: .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--color-white);
+}
+
+.color_purple {
+  background: var(--color-brand);
+}
+
+.color_grey {
+  background: var(--color-grey-300);
+}
+
+.format_square {
+  padding: .8rem;
+}
+
+.format_rectangule {
+  padding: .8rem 2.4rem;
+}

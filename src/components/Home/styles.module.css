@@ -1,0 +1,18 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: var(--color-grey-200);
+}
+
+.home > main {
+  width: 100%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}

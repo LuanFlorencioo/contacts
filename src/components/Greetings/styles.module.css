@@ -1,0 +1,23 @@
+.greetings {
+  width: 100%;
+  max-width: 42.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.greetings > h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: var(--color-white);
+}
+
+.greetings > h1 > span {
+  color: var(--color-brand);
+}
+
+.greetings > p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-grey-300);
+}

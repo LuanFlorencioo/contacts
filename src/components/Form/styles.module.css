@@ -1,0 +1,47 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.form > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form > div > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form > div > div > label {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  user-select: none;
+}
+
+.form > div > div > input {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  background: var(--color-grey-200);
+  border: none;
+  border-radius: .8rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--color-grey-300);
+}
+
+.form > div > div > input:focus {
+  outline: .2rem solid var(--color-brand);
+}
+
+.form > div > div > input::placeholder {
+  color: var(--color-grey-300);
+  opacity: .4;
+}

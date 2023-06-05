@@ -1,0 +1,28 @@
+:root {
+  --color-brand: #7F5AF0;
+  --color-white: #FFFFFE;
+  --color-grey-100: #16161A;
+  --color-grey-200: #242629;
+  --color-grey-300: #94A1B2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

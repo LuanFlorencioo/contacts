@@ -23,6 +23,8 @@ export const clientRetrieveSchema = clientResponseSchema.extend({
   contacts: z.array(contactSchema),
 })
 
+export const clientUpdateSchema = clientRequestSchema.partial();
+
 export const clientLoginSchema = clientSchema.pick({
   email: true,
   password: true,

@@ -3,6 +3,7 @@ import {
   clientLoginSchema,
   clientRequestSchema,
   clientResponseSchema,
+  clientUpdateSchema,
   clientRetrieveSchema,
 } from "./clientSchema";
 import {
@@ -17,6 +18,7 @@ export {
   clientLoginSchema,
   clientRequestSchema,
   clientResponseSchema,
+  clientUpdateSchema,
   clientRetrieveSchema,
   
   contactSchema,

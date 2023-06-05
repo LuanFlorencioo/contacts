@@ -3,6 +3,8 @@ import {
   iClient,
   iClientRequest,
   iClientResponse,
+  iClientUpdate,
+  iClientRetrieve,
 } from "./clients";
 import {
   iContact,
@@ -16,6 +18,8 @@ export type {
   iClient,
   iClientRequest,
   iClientResponse,
+  iClientUpdate,
+  iClientRetrieve,
   
   iContact,
   iContactRequest,

@@ -5,6 +5,9 @@ import Login from "./Login";
 import Register from "./Register";
 import Button from "./Button";
 import Loading from "./Loading";
+import Form from "./Form";
+import Contacts from "./Contacts";
+import Header from "./Header";
 
 export {
   Head,
@@ -14,4 +17,7 @@ export {
   Register,
   Button,
   Loading,
+  Form,
+  Contacts,
+  Header,
 }
